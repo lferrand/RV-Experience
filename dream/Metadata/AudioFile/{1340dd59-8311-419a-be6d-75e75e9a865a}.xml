@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{1340dd59-8311-419a-be6d-75e75e9a865a}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.1751927437641725</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/thunder2_cut {414eba3e-66cb-4f3b-a1a7-aa2bebeabe31}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e2201432-bd26-40d3-9e30-75673b0d08f1}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{c305f8e6-9079-4d62-94c8-84c917245e4d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>306.92671201814056</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Bells_base {34a5df6a-9ad6-4560-ab35-5a96dd048387}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e2201432-bd26-40d3-9e30-75673b0d08f1}</destination>
+        </relationship>
+    </object>
+</objects>

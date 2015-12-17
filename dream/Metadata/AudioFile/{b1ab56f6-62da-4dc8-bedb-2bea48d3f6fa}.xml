@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{b1ab56f6-62da-4dc8-bedb-2bea48d3f6fa}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>22.938412698412698</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/101933__juskiddink__dry-thunder1 {7c4e1261-97ce-492b-80ea-db7059afa24a}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e2201432-bd26-40d3-9e30-75673b0d08f1}</destination>
+        </relationship>
+    </object>
+</objects>

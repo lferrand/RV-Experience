@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{e27f5039-6723-43be-91e8-72ba7c60c296}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>9.9499546485260772</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/summerThunderClap {d43922ba-db41-445f-988f-929af6132bad}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e2201432-bd26-40d3-9e30-75673b0d08f1}</destination>
+        </relationship>
+    </object>
+</objects>
