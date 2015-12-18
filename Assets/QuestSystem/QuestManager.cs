@@ -38,7 +38,7 @@ public class QuestManager : MonoBehaviour{
 			Instance ().quests.AddRange (quests);
 			DestroyImmediate (this);
 		}
-		DontDestroyOnLoad (this);
+		//DontDestroyOnLoad (this);
 	}
 
     

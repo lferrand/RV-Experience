@@ -5,10 +5,13 @@ using System;
 public class SceneController : MonoBehaviour {
 
     private bool resetGazed;
+    private bool finishGazed;
     private float resetGazedTimer = 0.0f;
-	// Use this for initialization
-	void Start () {
+    private float finishGazedTimer = 0.0f;
+    // Use this for initialization
+    void Start () {
         resetGazed = false;
+        finishGazed = false;
 	}
 	
 	// Update is called once per frame
@@ -17,7 +20,36 @@ public class SceneController : MonoBehaviour {
         {
             ResetSceneFromGaze();
         }
-	}
+        else
+        {
+            resetGazedTimer = 0.0f;
+        }
+        if (finishGazed)
+        {
+            FinishSceneFromGaze();
+        }
+        else
+        {
+            finishGazedTimer = 0.0f;
+        }
+    }
+    public void SetGazedAtFinish(bool gazedAt)
+    {
+        finishGazed = gazedAt;
+    }
+
+    private void FinishSceneFromGaze()
+    {
+        if (finishGazedTimer < 3)
+        {
+            finishGazedTimer += Time.deltaTime;
+        }
+        else
+        {
+            Application.LoadLevel("end");
+        }
+    }
+
     public void SetGazedAtScene(bool gazedAt)
     {
         resetGazed = gazedAt;
@@ -31,7 +63,7 @@ public class SceneController : MonoBehaviour {
         }
         else
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(0);
         }
     }
 }
