@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 11491326}
-  - {fileID: 11421276}
+  - {fileID: 11479504}
+  - {fileID: 11484108}
   EditorEvents:
-  - {fileID: 11447688}
-  - {fileID: 11499356}
-  - {fileID: 11431002}
-  - {fileID: 11483510}
-  - {fileID: 11427358}
-  - {fileID: 11428742}
-  - {fileID: 11435568}
-  - {fileID: 11471062}
-  MasterBankRef: {fileID: 11491326}
-  stringsBankWriteTime: 635859993971638343
+  - {fileID: 11454454}
+  - {fileID: 11461568}
+  - {fileID: 11412934}
+  - {fileID: 11403802}
+  - {fileID: 11476218}
+  - {fileID: 11441394}
+  - {fileID: 11446708}
+  - {fileID: 11423504}
+  MasterBankRef: {fileID: 11479504}
+  stringsBankWriteTime: 635860032602125159
 --- !u!114 &11402214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,6 +122,27 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1689728
   Exists: 1
+--- !u!114 &11403802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Fire
+  guid: 54f6be7d591c784d9fde50f28ec54190
+  Banks:
+  - {fileID: 11484108}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 45
 --- !u!114 &11406464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +251,20 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11409532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: male
+  Min: 0
+  Max: 1
 --- !u!114 &11409662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +364,28 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 25
+--- !u!114 &11412934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/CarillonTest
+  guid: a8cea5b148dbef408f76c2d0c3f0e83e
+  Banks:
+  - {fileID: 11479504}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 11465952}
+  MinDistance: 0
+  MaxDistance: 0
 --- !u!114 &11413274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +429,20 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 10
+--- !u!114 &11414160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: female
+  Min: 0
+  Max: 1
 --- !u!114 &11414662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +642,27 @@ MonoBehaviour:
   Name: intensity
   Min: 0
   Max: 1
+--- !u!114 &11423504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/windDeep
+  guid: dd0117213d648e4ea48620605361bd86
+  Banks:
+  - {fileID: 11484108}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
 --- !u!114 &11423598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,6 +1021,20 @@ MonoBehaviour:
   Name: female
   Min: 0
   Max: 1
+--- !u!114 &11433836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: intensity
+  Min: 0
+  Max: 1
 --- !u!114 &11434310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,6 +1253,27 @@ MonoBehaviour:
   Name: balance2
   Min: 0
   Max: 1
+--- !u!114 &11441394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/thunderClap
+  guid: 5d97db05c11beb41968fcf6dcbf217df
+  Banks:
+  - {fileID: 11484108}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 95
 --- !u!114 &11441904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1223,6 +1350,28 @@ MonoBehaviour:
   Parameters:
   - {fileID: 11486892}
   - {fileID: 11474382}
+  MinDistance: 0
+  MaxDistance: 0
+--- !u!114 &11446708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/windCore
+  guid: d1f14e2e8c88a44981a57993ffe04f21
+  Banks:
+  - {fileID: 11484108}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 11490666}
   MinDistance: 0
   MaxDistance: 0
 --- !u!114 &11447178
@@ -1467,6 +1616,29 @@ MonoBehaviour:
   Name: male
   Min: 0
   Max: 1
+--- !u!114 &11454454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  guid: 57c3a0e0f26bb64ca0f3123cfafb9ec5
+  Banks:
+  - {fileID: 11479504}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 11414160}
+  - {fileID: 11409532}
+  MinDistance: 0
+  MaxDistance: 0
 --- !u!114 &11455188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1595,6 +1767,28 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 75
+--- !u!114 &11461568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Carillon
+  guid: 9dc8e9484751c3458f551ffef731030e
+  Banks:
+  - {fileID: 11479504}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 11433836}
+  MinDistance: 1
+  MaxDistance: 20
 --- !u!114 &11461936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1672,6 +1866,20 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 95
+--- !u!114 &11465952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: balance2
+  Min: 0
+  Max: 1
 --- !u!114 &11468350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,6 +2025,27 @@ MonoBehaviour:
   - {fileID: 11452158}
   MinDistance: 0
   MaxDistance: 0
+--- !u!114 &11476218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/windTree
+  guid: 5c7597fee40f5f4b82cd82705178f729
+  Banks:
+  - {fileID: 11484108}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 9.60000038
 --- !u!114 &11476288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1902,6 +2131,22 @@ MonoBehaviour:
   Name: deep
   Min: 0
   Max: 1
+--- !u!114 &11479504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Taliera/Documents/GitHub/RV-Experience/dream/Desktop\Master Bank.bank
+  lastModified: 635860032602105153
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &11480092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1965,6 +2210,22 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 45
+--- !u!114 &11484108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Taliera/Documents/GitHub/RV-Experience/dream/Desktop\Nature.bank
+  lastModified: 635860032602285437
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &11486876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2056,6 +2317,20 @@ MonoBehaviour:
   - {fileID: 11434310}
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11490666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: deep
+  Min: 0
+  Max: 1
 --- !u!114 &11491326
 MonoBehaviour:
   m_ObjectHideFlags: 0
