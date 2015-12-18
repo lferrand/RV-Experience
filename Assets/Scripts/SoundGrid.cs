@@ -13,9 +13,6 @@ namespace FMODUnity
 		List<FMOD.Studio.EventInstance> _instances;
 		// Use this for initialization
 		void Start () {
-
-
-
 			for (int i = 0; i < (int) (xmax-xmin)/bandwith; i++)
 			{
 				for (int j = 0;j<(int) (ymax-ymin)/bandwith;j++){

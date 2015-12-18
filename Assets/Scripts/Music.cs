@@ -11,6 +11,7 @@ namespace FMODUnity
 		
 		[EventRef]
 		public string Event;
+		public float Volume = 1;
 		public List<initParam> Param;
 		FMOD.Studio.EventInstance _instance; //name the event instance
 		FMOD.Studio.ParameterInstance _param; //name the parameter instance
@@ -20,6 +21,7 @@ namespace FMODUnity
 		// Use this for initialization
 		void Start () {
 			_instance = FMODUnity.RuntimeManager.CreateInstance(Event);
+			_instance.setVolume (Volume);
 			for (int i = 0; i < Param.Count; i++)
 			{
 				_instance.getParameter (Param[i].name, out _param);

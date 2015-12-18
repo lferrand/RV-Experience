@@ -20,12 +20,20 @@ namespace FMODUnity
 		}
 		
 		void OnTriggerEnter(Collider other){
+			print ("triggered");
 			if (other.gameObject.tag == "Player")
 			{
-				print ("triggered");
+
 				foreach (initParam p in Param){
+					Component[] musicList=other.gameObject.GetComponents<Music>();
+					foreach (Music m in musicList){
+						if (!p.smooth) m.SetParam(p.value, p.name);
+						if (p.smooth) m.SetParam(p.value,smoothTime, p.name);
+					}
+					/*
 				if (!p.smooth) other.gameObject.GetComponent<Music>().SetParam(p.value, p.name);
 				if (p.smooth) other.gameObject.GetComponent<Music>().SetParam(p.value,smoothTime, p.name);
+				*/
 				}
 			}	
 		}
