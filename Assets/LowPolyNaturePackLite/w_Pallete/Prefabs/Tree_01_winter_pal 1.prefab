@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3340730}
   - 23: {fileID: 2379546}
   - 64: {fileID: 6444496}
+  - 114: {fileID: 11417036}
   m_Layer: 0
   m_Name: Tree_01_winter_pal 1
   m_TagString: Untagged
@@ -73,6 +74,24 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 87fd52857ae0d4c4594b5d4ab45d44e5, type: 3}
+--- !u!114 &11417036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/windTree
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -83,6 +102,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Event
+      value: event:/windTree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

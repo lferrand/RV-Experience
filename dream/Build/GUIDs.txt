@@ -1,7 +1,0 @@
-{05db975d-1bc1-41eb-968f-cf6dcbf217df} event:/thunderClap
-{b1a5cea8-db48-40ef-8f76-c2d0c3f0e83e} event:/Music
-{48e9c89d-5147-45c3-8f55-1ffef731030e} event:/Music2
-{5984bca3-5cd8-40c2-9b68-84846cfcbc5f} bus:/
-{40b5f0fe-9f60-4be6-aa45-a6787de2811b} bus:/Reverb
-{ddde4a86-39ba-4854-9ccb-f852d1dda829} bank:/thunder
-{c80a14d8-cf5a-4ea5-ba39-8039703513d7} bank:/Master Bank

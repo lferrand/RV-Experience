@@ -22,6 +22,7 @@ namespace FMODUnity
 		void OnTriggerEnter(Collider other){
 			if (other.gameObject.tag == "Player")
 			{
+				print ("triggered");
 				foreach (initParam p in Param){
 				if (!p.smooth) other.gameObject.GetComponent<Music>().SetParam(p.value, p.name);
 				if (p.smooth) other.gameObject.GetComponent<Music>().SetParam(p.value,smoothTime, p.name);

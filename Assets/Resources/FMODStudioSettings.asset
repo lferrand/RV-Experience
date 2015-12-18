@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  SourceProjectPath: 
-  SourceBankPath: 
+  SourceProjectPath: C:/Users/frog/Documents/FMOD Studio/dream/dream.fspro
+  SourceBankPath: C:/Users/frog/Documents/FMOD Studio/dream\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   SpeakerModeSettings:
@@ -38,7 +38,11 @@ MonoBehaviour:
     Value: 1
   - Platform: 2
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 1
+    Value: Desktop
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 2
     Value: 128
@@ -46,5 +50,6 @@ MonoBehaviour:
   - Platform: 2
     Value: 32
   Plugins: []
-  MasterBank: 
-  Banks: []
+  MasterBank: Master Bank
+  Banks:
+  - Nature
